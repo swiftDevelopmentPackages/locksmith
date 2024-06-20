@@ -1,5 +1,5 @@
 //
-//  KeychainStorage.swift
+//  Locksmith.swift
 //
 //
 //  Created by Eren Kabakci
@@ -7,13 +7,13 @@
 
 import Foundation
 
-public protocol KeychainStoring {
+public protocol LocksmithProtocol {
   func save<T>(key: String, value: T) where T : Codable
   func read<T>(key:String, forType: T.Type) -> T? where T : Codable
   func delete(key: String)
 }
 
-public class KeychainStorage: KeychainStoring {
+public class Locksmith: KeychainStoring {
   private let service: String
   private let accessGroup: String?
 
