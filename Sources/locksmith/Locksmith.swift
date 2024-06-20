@@ -13,7 +13,7 @@ public protocol LocksmithProtocol {
   func delete(key: String)
 }
 
-public class Locksmith: KeychainStoring {
+public class Locksmith: LocksmithProtocol {
   private let service: String
   private let accessGroup: String?
 
