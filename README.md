@@ -1,6 +1,6 @@
 ![CI](https://github.com/swiftDevelopmentPackages/locksmith/actions/workflows/swift.yml/badge.svg?branch=main)
-![iOS](https://img.shields.io/badge/iOS-12.0-blue)
-![macOS](https://img.shields.io/badge/macOS-10.13-blue)
+![iOS](https://img.shields.io/badge/iOS-12.0+-blue)
+![macOS](https://img.shields.io/badge/macOS-10.13+-blue)
 
 # locksmith
 Keychain access wrapper for macOS/iOS written in Swift. locksmith provides a simple and secure way to store and retrieve sensitive data using the iOS Keychain.
